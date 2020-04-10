@@ -4,11 +4,12 @@ using System.IO; //vajalik et kasutada StreamReader ja StreamWriter
 
 namespace Excercise4StreamReaderStreamWriter
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            List<string> myList = new List<string>();
+
+            
 
             string line;
             using (StreamReader reader = new StreamReader("list.txt")) //failinimi 1 sõnaline alati
@@ -21,10 +22,11 @@ namespace Excercise4StreamReaderStreamWriter
                 }
  
             }
+            Console.WriteLine("töötab");
             Console.WriteLine("\n");
 
             foreach (string value in myList)
-                Console.WriteLine(value);
+                Console.WriteLine(value);   
 
             Console.WriteLine("\n");
             myList.Sort();
