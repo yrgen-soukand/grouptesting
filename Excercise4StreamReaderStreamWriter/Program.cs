@@ -21,6 +21,7 @@ namespace Excercise4StreamReaderStreamWriter
                 }
  
             }
+            Console.Write("aaa");
             Console.WriteLine("\n");
 
             foreach (string value in myList)
