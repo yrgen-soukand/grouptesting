@@ -22,7 +22,7 @@ namespace Excercise4StreamReaderStreamWriter
                 }
  
             }
-            Console.WriteLine("töötab");
+
             Console.WriteLine("\n");
 
             foreach (string value in myList)
