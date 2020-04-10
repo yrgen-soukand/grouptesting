@@ -7,6 +7,8 @@ namespace Excercise5ReadingAndWritingSameTime
     {
         static void Main(string[] args)
         {
+
+
             string line;
             int questionNr = 1;
 
@@ -30,6 +32,7 @@ namespace Excercise5ReadingAndWritingSameTime
             }
             Console.WriteLine("Thank you for answering.");
             Console.ReadLine();
+
 
         }
     }

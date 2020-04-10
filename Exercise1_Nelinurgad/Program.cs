@@ -2,17 +2,17 @@
 
 namespace Exercise1_Nelinurgad
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {           
             double area = 20;
-            double area2 = 60;
+            double area2 = 80;
             double area3 = 78;
 
             double height = 5;
-            double height2 = 10;
-            double height3 = 20;
+            double height2 = 20;
+            double height3 = 25;
 
             double width1 = WidthFinder(area, height);
             double circumference1 = CircumferenceFinder(area, height);
